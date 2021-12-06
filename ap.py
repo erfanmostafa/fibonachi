@@ -10,5 +10,10 @@ def fibo(num):
     return fibo(num-1) + fibo(num-2)
 
 
-x = int(input("Enter your number: "))
-print(fibo(x))
+def main():
+    x = int(input("Enter your number:"))
+    print(fibo(x))
+
+
+if __name__ == "__main__":
+    main()
